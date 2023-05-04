@@ -5,4 +5,4 @@
 - dal web scarichiamo chinook.db e metterlo nella cartella su visual studio
 - dopo questi passaggi si può iniziare a scrivere il codice
 - primo comando da aggiungere è using SQLite;
-- 
+po allego il codice che segue
