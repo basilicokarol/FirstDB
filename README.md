@@ -5,8 +5,8 @@
 - dal web scarichiamo chinook.db e metterlo nella cartella su visual studio
 - dopo questi passaggi si può iniziare a scrivere il codice
 - primo comando da aggiungere è using SQLite;
-po allego il codice che segue
-using SQLite;
+ poi allego il codice che segue
+ using SQLite;
 
 
 
@@ -34,8 +34,10 @@ public int ArtistId{ get; set; }
   Il database di esempio Chinook per un negozio di media digitali può essere utilizzato per esplorare e apprendere YugabyteDB.
 
 -Puoi installare e utilizzare il database di esempio Chinook utilizzando:
- Un'installazione locale di YugabyteDB. Per installare YugabyteDB, fare riferimento a Quick Start.
- Utilizzo di cloud shell o di una shell client per connettersi a un cluster in YugabyteDB Managed. Fare riferimento a Connettersi ai cluster in YugabyteDB Managed.
+ Un'installazione locale di YugabyteDB.
+ Per installare YugabyteDB, fare riferimento a Quick Start.
+ Utilizzo di cloud shell o di una shell client per connettersi a un cluster in YugabyteDB Managed.
+ Fare riferimento a Connettersi ai cluster in YugabyteDB Managed.
  Per   iniziare con YugabyteDB Managed, fare riferimento a Avvio rapido.
  In entrambi i casi, si utilizza la CLI di YugabyteDB SQL shell (ysqlsh) per interagire con YugabyteDB utilizzando YSQL
  
@@ -45,7 +47,6 @@ public int ArtistId{ get; set; }
  Le informazioni sui clienti e sui dipendenti sono state create utilizzando nomi e indirizzi fittizi che possono essere localizzati su Google Maps e altri dati ben      formattati (telefono, fax, e-mail, ecc.)
  Le informazioni sulle vendite sono state generate automaticamente utilizzando dati casuali per un periodo di quattro anni.
  Il database di esempio Chinook include:
-
  11 tavoli
  Una varietà di indici, vincoli di chiave primaria ed esterna
  Oltre 15.000 righe di dati
