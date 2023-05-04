@@ -22,3 +22,19 @@ Console.WriteLine($"in questa tabella ci sono {tblArtists.Count}record!");
 //--------------------------------------------
 
 public class Artist
+{
+public int ArtistId{ get; set; }
+//public string Name { get; set; }
+
+}
+ 
+  
+  
+  - dove trovare il chinook:
+  Il database di esempio Chinook per un negozio di media digitali può essere utilizzato per esplorare e apprendere YugabyteDB.
+
+-Puoi installare e utilizzare il database di esempio Chinook utilizzando:
+ Un'installazione locale di YugabyteDB. Per installare YugabyteDB, fare riferimento a Quick Start.
+ Utilizzo di cloud shell o di una shell client per connettersi a un cluster in YugabyteDB Managed. Fare riferimento a Connettersi ai cluster in YugabyteDB Managed.
+ Per   iniziare con YugabyteDB Managed, fare riferimento a Avvio rapido.
+ In entrambi i casi, si utilizza la CLI di YugabyteDB SQL shell (ysqlsh) per interagire con YugabyteDB utilizzando YSQL
