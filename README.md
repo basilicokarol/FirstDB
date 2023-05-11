@@ -33,7 +33,7 @@
   - dove trovare il chinook:
   Il database di esempio Chinook per un negozio di media digitali può essere utilizzato per esplorare e apprendere YugabyteDB.
 
-
+-link per scaricarlo https://www.sqlitetutorial.net/sqlite-sample-database/ Download SQLite sample database You can download the SQLite sample database using the following link.
 -Il modello di dati Chinook rappresenta un archivio multimediale digitale, incluse tabelle per artisti, album, tracce multimediali, fatture e clienti.
 
  I dati relativi ai media sono stati creati utilizzando dati reali da una libreria iTunes di Apple.
