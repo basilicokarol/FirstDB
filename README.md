@@ -12,26 +12,26 @@
 ###
 
 
-  //connessione al db
-  SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
-  var tblArtists = cn1.Query<Artist>("select * from artists");
-  Console.WriteLine($"in questa tabella ci sono {tblArtists.Count}record!");
+    //connessione al db
+    SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
+    var tblArtists = cn1.Query<Artist>("select * from artists");
+    Console.WriteLine($"in questa tabella ci sono {tblArtists.Count}record!");
 
-  //--------------------------------------------
-  //fine del main.... inizio della dichiarazione
-  //--------------------------------------------
+    //--------------------------------------------
+    //fine del main.... inizio della dichiarazione
+    //--------------------------------------------
 
-  public class Artist
-  {
-  public int ArtistId{ get; set; }
-  //public string Name { get; set; }
+    public class Artist
+    {
+    public int ArtistId{ get; set; }
+    //public string Name { get; set; }
 
-  }
+    }
  
 ###  
   
   - dove trovare il chinook:
-  Il database di esempio Chinook per un negozio di media digitali può essere utilizzato per esplorare e apprendere YugabyteDB.
+  Il database di esempio Chinook per un negozio di media digitali può essere utilizzato per esplorare e apprendere 
 
 -link per scaricarlo https://www.sqlitetutorial.net/sqlite-sample-database/ Download SQLite sample database You can download the SQLite sample database using the following link.
 -Il modello di dati Chinook rappresenta un archivio multimediale digitale, incluse tabelle per artisti, album, tracce multimediali, fatture e clienti.
