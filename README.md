@@ -9,38 +9,31 @@
  using SQLite;
 
 
+###
 
 
+  //connessione al db
+  SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
+  var tblArtists = cn1.Query<Artist>("select * from artists");
+  Console.WriteLine($"in questa tabella ci sono {tblArtists.Count}record!");
 
-//connessione al db
-SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
-var tblArtists = cn1.Query<Artist>("select * from artists");
-Console.WriteLine($"in questa tabella ci sono {tblArtists.Count}record!");
+  //--------------------------------------------
+  //fine del main.... inizio della dichiarazione
+  //--------------------------------------------
 
-//--------------------------------------------
-//fine del main.... inizio della dichiarazione
-//--------------------------------------------
+  public class Artist
+  {
+  public int ArtistId{ get; set; }
+  //public string Name { get; set; }
 
-public class Artist
-{
-public int ArtistId{ get; set; }
-//public string Name { get; set; }
-
-}
+  }
  
-  
+###  
   
   - dove trovare il chinook:
   Il database di esempio Chinook per un negozio di media digitali può essere utilizzato per esplorare e apprendere YugabyteDB.
 
--Puoi installare e utilizzare il database di esempio Chinook utilizzando:
- Un'installazione locale di YugabyteDB.
- Per installare YugabyteDB, fare riferimento a Quick Start.
- Utilizzo di cloud shell o di una shell client per connettersi a un cluster in YugabyteDB Managed.
- Fare riferimento a Connettersi ai cluster in YugabyteDB Managed.
- Per   iniziare con YugabyteDB Managed, fare riferimento a Avvio rapido.
- In entrambi i casi, si utilizza la CLI di YugabyteDB SQL shell (ysqlsh) per interagire con YugabyteDB utilizzando YSQL
- 
+
 -Il modello di dati Chinook rappresenta un archivio multimediale digitale, incluse tabelle per artisti, album, tracce multimediali, fatture e clienti.
 
  I dati relativi ai media sono stati creati utilizzando dati reali da una libreria iTunes di Apple.
